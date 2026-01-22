@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+}
+
+h1 {
+  color: #1a1a1a;
+}
+
+.card-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #444;
+}
